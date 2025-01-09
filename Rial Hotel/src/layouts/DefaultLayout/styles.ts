@@ -28,14 +28,14 @@ display: flex;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 600px;
     background-color: rgba(128, 128, 128, 0.6); /* Cinza transparente */
     z-index: 1; /* Camada acima da imagem */
   `
 
 export const WrapTop = styled.div`
     padding: 2rem;
-    max-width: 70rem;
+    width: 60rem;
     height: auto;
 
     h1{

@@ -17,31 +17,36 @@ export const PriceContainer = styled.main`
         display: flex;
         align-self: self-start;
         margin-left: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
     }
 
-    span{
+    p{
         margin-bottom: 1rem;
         font-size: 1.75rem;
-        color: ${(props) => props.theme["gray-300"]};
+        color: ${(props) => props.theme["gray-900"]};
     }
-
-
 `;
 
-export const WrapRoom = styled.div`
-    width: 100%;
-    padding: 5rem;
-    display: flex;
-    justify-content: space-between; /* Posiciona entre os lados (esquerda e direita) */
-    align-items: center; /* Alinha no eixo vertical (cima e baixo) */
-`;
+
 
 export const Room = styled.div`
-    width: 300px;
-    height: 100px;
+    width: auto;
+    height: auto;
+
+    padding: 1rem;
+    margin: 20px;
     background-color: aliceblue;
     display: flex;
+
+    h1{
+        font-size: 1rem;
+        color: ${(props) => props.theme["gray-900"]};
+    }
+
+    img{
+        width: 300px;
+        object-fit: contain;
+    }
     
 `;
 
