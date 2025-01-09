@@ -34,8 +34,8 @@ display: flex;
   `
 
 export const WrapTop = styled.div`
-padding: 2rem;
-    width: auto;
+    padding: 2rem;
+    max-width: 70rem;
     height: auto;
 
     h1{
