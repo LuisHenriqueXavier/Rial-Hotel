@@ -8,14 +8,14 @@ export function Price() {
             <h1>Preços</h1>
 
             <h2>Tabela de Alta Temporada</h2>
-            <p>
+            <h2>
             Vigência de 16/12/2024 até 31/03/2025 (Exceto Reveillon)<br/>
             *Os valores das diárias poderão ser alterados sem aviso prévio
-            </p>
+            </h2>
 
                 <Room>
                     <img src={RoomA} />
-                    <h1>
+                    <h3>
                         
 SUÍTE COM AR CONDICIONADO <br/><br/>
 Tv aberta, telefone, frigobar e ar condicionado<br/>
@@ -28,11 +28,11 @@ Diárias com início as 12:30 e término às 12:00<br/><br/>
 04 Pessoas - R$ 490,00<br/><br/>
 
 *Tabela Alta Temporada Verão
-                    </h1>
+                    </h3>
                 </Room>
                 <Room>
                     <img src={RoomB} />
-                    <h1>
+                    <h3>
                         
 SUÍTE COM AR CONDICIONADO <br/><br/>
 Tv aberta, telefone, frigobar e ar condicionado<br/>
@@ -45,7 +45,7 @@ Diárias com início as 12:30 e término às 12:00<br/><br/>
 04 Pessoas - R$ 490,00<br/><br/>
 
 *Tabela Alta Temporada Verão
-                    </h1>
+                    </h3>
                 </Room>
         </PriceContainer>
     )

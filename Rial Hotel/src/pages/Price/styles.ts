@@ -10,7 +10,7 @@ export const PriceContainer = styled.main`
     h1{
         display: flex;
         align-self: self-start;
-        margin-bottom:2rem;
+        margin-bottom:5rem;
     }
 
     h2{
@@ -18,11 +18,6 @@ export const PriceContainer = styled.main`
         align-self: self-start;
         margin-left: 2rem;
         margin-bottom: 5rem;
-    }
-
-    p{
-        margin-bottom: 1rem;
-        font-size: 1.75rem;
         color: ${(props) => props.theme["gray-900"]};
     }
 `;
@@ -30,21 +25,25 @@ export const PriceContainer = styled.main`
 
 
 export const Room = styled.div`
-    width: auto;
+    width: 60rem;
     height: auto;
+    justify-content: space-between;
 
-    padding: 1rem;
+    border-radius: 10px;
+
+    padding: 5rem;
     margin: 20px;
     background-color: aliceblue;
     display: flex;
 
-    h1{
+    h3{
         font-size: 1rem;
         color: ${(props) => props.theme["gray-900"]};
     }
 
     img{
-        width: 300px;
+        width: 400px;
+        border-radius: 10px;
         object-fit: contain;
     }
     

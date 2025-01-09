@@ -18,4 +18,25 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
     }
+
+    body{
+        background-color: ${props => props.theme["gray-100"]};
+    }
+
+
+/* Remove a barra de rolagem no Firefox */
+html {
+    scrollbar-width: none; /* Firefox */
+}
+
+  /* Remove a barra de rolagem no Chrome, Edge, e Safari */
+body {
+    -ms-overflow-style: none; /* IE e Edge */
+    overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Oculta no Chrome, Edge e Safari */
+}
+
 `;

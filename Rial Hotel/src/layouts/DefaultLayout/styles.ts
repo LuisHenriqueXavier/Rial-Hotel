@@ -12,7 +12,7 @@ export const LayoutContainer = styled.div`
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita repetição da imagem */
     
-
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -63,7 +63,8 @@ export const WrapTop = styled.div`
 
     p {
         margin-left: 2rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: ${(props) => props.theme.white};
     }
 `
+

@@ -21,6 +21,7 @@ export function DefaultLayout() {
                 com todo o conforto que você merece!
             </p>
             <Outlet />
+            
             </WrapTop>
             </Overlay>
         </LayoutContainer>
