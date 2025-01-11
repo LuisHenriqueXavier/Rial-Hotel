@@ -29,7 +29,7 @@ display: flex;
     left: 0;
     width: 100%;
     height: 600px;
-    background-color: rgba(128, 128, 128, 0.6); /* Cinza transparente */
+    background-color: rgba(128, 128, 128, 0.7); /* Cinza transparente */
     z-index: 1; /* Camada acima da imagem */
   `
 

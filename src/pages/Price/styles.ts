@@ -38,6 +38,8 @@ export const Room = styled.div`
 
     h3{
         font-size: 1rem;
+        padding-left: 2rem;
+        border-left: 2px solid ${(props) => props.theme["gray-900"]};
         color: ${(props) => props.theme["gray-900"]};
     }
 

@@ -34,15 +34,15 @@ Diárias com início as 12:30 e término às 12:00<br/><br/>
                     <img src={RoomB} />
                     <h3>
                         
-SUÍTE COM AR CONDICIONADO <br/><br/>
-Tv aberta, telefone, frigobar e ar condicionado<br/>
+SUÍTE COM VENTILADOR <br/><br/>
+Tv aberta, telefone, frigobar e ventilador<br/>
 
 Diárias com início as 12:30 e término às 12:00<br/><br/>
 
-01 Pessoa  -  R$ 215,00<br/>
-02 Pessoas - R$ 330,00<br/>
-03 Pessoas - R$ 410,00<br/>
-04 Pessoas - R$ 490,00<br/><br/>
+01 Pessoa  -  R$ 175,00<br/>
+02 Pessoas - R$ 275,00<br/>
+03 Pessoas - R$ 340,00<br/>
+04 Pessoas - R$ 410,00<br/><br/>
 
 *Tabela Alta Temporada Verão
                     </h3>
