@@ -7,7 +7,7 @@ export function App() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename="RialHotel">
         <Router />
       </BrowserRouter>
       <GlobalStyle />

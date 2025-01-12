@@ -15,7 +15,7 @@ export function Router() {
                 <Route path="/facilities" element={<Facilities />} />
                 <Route path="/rooms" element={<Rooms />} />
                 <Route path="/price" element={<Price />} />
-                <Route path="/Contact" element={<Contact />} />
+                <Route path="/contact" element={<Contact />} />
             </Route>
         </Routes>
     )

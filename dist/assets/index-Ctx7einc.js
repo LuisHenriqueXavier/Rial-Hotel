@@ -227,7 +227,7 @@ display: flex;
         font-size: 1.5rem;
         color: ${l=>l.theme.white};
     }
-`;function Rg(){return $.jsx(Eg,{children:$.jsx(Cg,{children:$.jsxs(Pg,{children:[$.jsx(Ag,{}),$.jsx("h1",{children:"Bem-vindos ao"}),$.jsx("strong",{children:"Rial"}),$.jsx("span",{children:"Hotel"}),$.jsx("br",{}),$.jsxs("p",{children:["Faça já sua reserva, e desfrute de um belo dia de praia, ",$.jsx("br",{}),"com todo o conforto que você merece!"]}),$.jsx(Ly,{})]})})})}function _g(){return $.jsx(zy,{children:$.jsxs(Tn,{path:"/",element:$.jsx(Rg,{}),children:[$.jsx(Tn,{path:"/",element:$.jsx(fg,{})}),$.jsx(Tn,{path:"/facilities",element:$.jsx(dg,{})}),$.jsx(Tn,{path:"/rooms",element:$.jsx(hg,{})}),$.jsx(Tn,{path:"/price",element:$.jsx(wg,{})}),$.jsx(Tn,{path:"/Contact",element:$.jsx(mg,{})})]})})}const Ng={white:"#FFF","gray-100":"#E1E1E6","gray-300":"#C4C4CC","gray-400":"#8D8D99","gray-500":"#7C7C8A","gray-600":"#323238","gray-700":"#29292E","gray-800":"#202024","gray-900":"#121214","green-300":"#00B37E","green-500":"#00875F","green-700":"#015F43","red-500":"#AB222E","red-700":"#7A1921","yellow-500":"#FBA94C"},Lg=Mm`
+`;function Rg(){return $.jsx(Eg,{children:$.jsx(Cg,{children:$.jsxs(Pg,{children:[$.jsx(Ag,{}),$.jsx("h1",{children:"Bem-vindos ao"}),$.jsx("strong",{children:"Rial"}),$.jsx("span",{children:"Hotel"}),$.jsx("br",{}),$.jsxs("p",{children:["Faça já sua reserva, e desfrute de um belo dia de praia, ",$.jsx("br",{}),"com todo o conforto que você merece!"]}),$.jsx(Ly,{})]})})})}function _g(){return $.jsx(zy,{children:$.jsxs(Tn,{path:"/",element:$.jsx(Rg,{}),children:[$.jsx(Tn,{path:"/",element:$.jsx(fg,{})}),$.jsx(Tn,{path:"/facilities",element:$.jsx(dg,{})}),$.jsx(Tn,{path:"/rooms",element:$.jsx(hg,{})}),$.jsx(Tn,{path:"/price",element:$.jsx(wg,{})}),$.jsx(Tn,{path:"/contact",element:$.jsx(mg,{})})]})})}const Ng={white:"#FFF","gray-100":"#E1E1E6","gray-300":"#C4C4CC","gray-400":"#8D8D99","gray-500":"#7C7C8A","gray-600":"#323238","gray-700":"#29292E","gray-800":"#202024","gray-900":"#121214","green-300":"#00B37E","green-500":"#00875F","green-700":"#015F43","red-500":"#AB222E","red-700":"#7A1921","yellow-500":"#FBA94C"},Lg=Mm`
     *{
         margin: 0;
         padding: 0;
@@ -266,4 +266,4 @@ body::-webkit-scrollbar {
     display: none; /* Oculta no Chrome, Edge e Safari */
 }
 
-`;function Tg(){return $.jsxs(Om,{theme:Ng,children:[$.jsx(ng,{children:$.jsx(_g,{})}),$.jsx(Lg,{})]})}Dh.createRoot(document.getElementById("root")).render($.jsx(P.StrictMode,{children:$.jsx(Tg,{})}));
+`;function Tg(){return $.jsxs(Om,{theme:Ng,children:[$.jsx(ng,{basename:"RialHotel",children:$.jsx(_g,{})}),$.jsx(Lg,{})]})}Dh.createRoot(document.getElementById("root")).render($.jsx(P.StrictMode,{children:$.jsx(Tg,{})}));
