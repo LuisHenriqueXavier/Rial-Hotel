@@ -14,10 +14,11 @@ export const PriceContainer = styled.main`
     }
 
     h2{
+        font-size: 1.3rem;
         display: flex;
         align-self: self-start;
         margin-left: 2rem;
-        margin-bottom: 5rem;
+        margin-top: 2rem;
         color: ${(props) => props.theme["gray-900"]};
     }
 `;

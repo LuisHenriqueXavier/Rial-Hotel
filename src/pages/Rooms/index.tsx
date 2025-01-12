@@ -1,11 +1,12 @@
+import { RoomContainer } from "./styles";
 
 
 export function Rooms() {
     return (
-        <div>
+        <RoomContainer>
             <h1>
                 Acomodações
             </h1>
-        </div>
+        </RoomContainer>
     )
 }
