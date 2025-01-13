@@ -9,11 +9,11 @@ export function Price() {
 
             <h2>Tabela de Alta Temporada</h2>
             <h2>
-            Vigência de 16/12/2024 até 31/03/2025 (Exceto Reveillon)<br/>
+            Vigência de 16/12/2024 até 31/03/2025 (Exceto Reveillon)
             *Os valores das diárias poderão ser alterados sem aviso prévio
             </h2>
             <h2>
-            O que está incluso na diária: café da manhã, estacionamento fechado, <br/>
+            O que está incluso na diária: café da manhã, estacionamento fechado, 
             internet wi/fi, uso das piscinas (adulto e infantil) e do espaço de jogos.
             </h2>
 
