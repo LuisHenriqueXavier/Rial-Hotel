@@ -42,6 +42,14 @@ export const Room = styled.div`
     height: 300px;
     border-radius: 10px;
     object-fit: cover; /* Garante que a imagem se encaixe no espaço */
+    
+    cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
 
     @media (max-width: 768px) {
       width: 100%; /* Faz a imagem ocupar toda a largura disponível */
