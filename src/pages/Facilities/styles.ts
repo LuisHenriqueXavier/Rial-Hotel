@@ -5,15 +5,11 @@ export const FacilitiesContainer = styled.main`
   gap: 2rem;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
 
-  h1 {
-    margin-top: -5px;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    text-align: center;
-    color: ${(props) => props.theme["gray-700"]};
+  h1{
+    align-self: flex-start;
   }
+
 
     img {
       width: 100%;
