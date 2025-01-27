@@ -19,7 +19,7 @@ export const HomeContainer = styled.main`
 `;
 
 export const SectionContainer = styled.section`
-  background-color: ${(props) => props.theme["gray-200"]};
+  background-color: ${(props) => props.theme["gray-500"]};
   border-radius: 10px;
   padding: 2rem;
   width: 100%;

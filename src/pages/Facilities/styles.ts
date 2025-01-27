@@ -7,6 +7,8 @@ export const FacilitiesContainer = styled.main`
   align-items: center;
   padding-top: 150px;
   text-align: center;
+  
+  margin-bottom: 100px;
 
   /* Estilos para o texto descritivo */
   .hotel-info {

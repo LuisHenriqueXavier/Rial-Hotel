@@ -15,19 +15,19 @@ export function Footer() {
         </p>
         <nav>
           <NavLink to="/" aria-label="Início">
-            <House size={20} weight="bold" alt="Início" /> Início
+            <House size={20} weight="bold" alt="Início" /> 
           </NavLink>
           <NavLink to="/facilities" aria-label="Estrutura">
-            <Buildings size={20} weight="bold" alt="Estrutura" /> Estrutura
+            <Buildings size={20} weight="bold" alt="Estrutura" /> 
           </NavLink>
           <NavLink to="/rooms" aria-label="Acomodações">
-            <Bed size={20} weight="bold" alt="Acomodações" /> Acomodações
+            <Bed size={20} weight="bold" alt="Acomodações" /> 
           </NavLink>
           <NavLink to="/price" aria-label="Preços">
-            <Coins size={20} weight="bold" alt="Preços" /> Preços
+            <Coins size={20} weight="bold" alt="Preços" /> 
           </NavLink>
           <NavLink to="/contact" aria-label="Contato">
-            <Phone size={20} weight="bold" alt="Contato" /> Contato
+            <Phone size={20} weight="bold" alt="Contato" /> 
           </NavLink>
         </nav>
 

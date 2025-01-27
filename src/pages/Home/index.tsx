@@ -3,7 +3,7 @@ import { HomeContainer, SectionContainer, SectionTitle, SectionDescription } fro
 
 import img1 from '../../assets/facilities/1.jpg'; // Imagem da estrutura
 import img2 from '../../assets/RoomA/RoomA.jpg'; // Imagem das acomodações
-import img3 from '../../assets/Facilities/rial-logo.jpg';
+import img3 from '../../assets/Facilities/7.jpg';
 import img4 from '../../assets/facilities/4.jpg'; // Imagem de contato
 
 export function Home() {

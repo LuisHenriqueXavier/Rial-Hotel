@@ -6,6 +6,8 @@ export const RoomContainer = styled.main`
   align-items: center;
   justify-content: center;
   padding-top: 150px;
+  
+  margin-bottom: 100px;
 
   h1 {
     align-self: flex-start;
