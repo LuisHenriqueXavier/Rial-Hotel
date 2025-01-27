@@ -5,31 +5,54 @@ export const FacilitiesContainer = styled.main`
   gap: 2rem;
   flex-direction: column;
   align-items: center;
+  padding-top: 150px;
+  text-align: center;
 
-  h1{
+  /* Estilos para o texto descritivo */
+  .hotel-info {
+    max-width: 900px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: ${(props) => props.theme["gray-200"]};
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: ${(props) => props.theme["gray-800"]};
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: ${(props) => props.theme["gray-600"]};
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  }
+
+  h1 {
     align-self: flex-start;
   }
 
+  /* Estilo das imagens */
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-    img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-      &:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      }
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
-  
+  }
 `;
 
-
-
-// Modal para a imagem em tela cheia
+// Modal para exibir imagem em tela cheia
 export const FullscreenImage = styled.div`
   position: fixed;
   top: 0;
@@ -47,11 +70,10 @@ export const FullscreenImage = styled.div`
     height: 100vh;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    
     object-fit: contain;
-    &:hover {
-        transform: scale(1);
-      }
-  }
 
+    &:hover {
+      transform: scale(1);
+    }
+  }
 `;
