@@ -23,8 +23,8 @@ export function Footer() {
           <NavLink to="/rooms" aria-label="Acomodações">
             <Bed size={20} weight="bold" alt="Acomodações" /> Acomodações
           </NavLink>
-          <NavLink to="/price" aria-label="Valores">
-            <Coins size={20} weight="bold" alt="Valores" /> Valores
+          <NavLink to="/price" aria-label="Preços">
+            <Coins size={20} weight="bold" alt="Preços" /> Preços
           </NavLink>
           <NavLink to="/contact" aria-label="Contato">
             <Phone size={20} weight="bold" alt="Contato" /> Contato
