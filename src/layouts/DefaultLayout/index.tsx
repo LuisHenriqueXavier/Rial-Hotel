@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../../components/Header";
 import { LayoutContainer, Overlay, WrapTop } from "./styles";
+import { Footer } from "../../components/Footer";
 
 export function DefaultLayout() {
     return (
@@ -21,9 +22,10 @@ export function DefaultLayout() {
                 com todo o conforto que você merece!
             </p>
             <Outlet />
-            
+            <Footer/>
             </WrapTop>
             </Overlay>
+            
         </LayoutContainer>
     )
 }

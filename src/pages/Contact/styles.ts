@@ -10,7 +10,7 @@ export const ContactContainer = styled.div`
   max-width: 1200px;
   margin-top: -50px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
   }
@@ -72,4 +72,8 @@ export const MapContainer = styled.div`
     height: 100%;
     border: none;
   }
+
+    @media (max-width: 768px) {
+        margin-top: 2rem;
+    }
 `;
