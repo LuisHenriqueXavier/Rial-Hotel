@@ -33,6 +33,7 @@ export const HeaderContainer = styled.header`
       border-bottom: 3px solid transparent;
       padding: 1rem;
       border-radius: 10px;
+      gap: 0.5rem;
       transition: border-bottom 0.3s ease-in-out, padding 0.3s ease-in-out; /* Transições para os links */
     }
 

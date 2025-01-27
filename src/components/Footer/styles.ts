@@ -13,12 +13,12 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   z-index: 1; /* Garante que o footer fique acima de outros elementos */
- /* Esconde o footer em telas menores */
- @media (max-width: 768px) {
-    display: none;
+
+  /* Esconde o footer em telas menores */
+  @media (max-width: 768px) {
+    display: block; /* Exibe o footer de forma empilhada em telas pequenas */
   }
 `;
-
 
 export const FooterContent = styled.div`
   width: 100%;
@@ -33,10 +33,10 @@ export const FooterContent = styled.div`
   p {
     margin: 0;
     font-size: 1rem;
+    flex: 1;
   }
 
   nav {
-    gap: 1.5rem;
     display: flex;
     gap: 1.5rem;
 
@@ -62,5 +62,28 @@ export const FooterContent = styled.div`
       color: ${(props) => props.theme["red-700"]};
       border-bottom: 3px solid ${(props) => props.theme["red-500"]};
     }
+  }
+
+  .social-media {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    .icons {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    display:none;
   }
 `;

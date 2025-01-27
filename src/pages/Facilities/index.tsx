@@ -23,7 +23,6 @@ export function Facilities() {
   };
     return (
         <FacilitiesContainer>
-            <h1>Instalações</h1>
         {[img1, img2, img3, img4, img5, img6, img7, img8, img9].map(
           (image, index) => (
             <img

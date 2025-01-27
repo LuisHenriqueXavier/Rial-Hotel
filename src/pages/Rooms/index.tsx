@@ -32,7 +32,6 @@ export function Rooms() {
 
   return (
     <RoomContainer>
-      <h1>Acomodações</h1>
       <h3>Suítes com ar condicionado</h3>
       <Room>
         {[RoomA, rooma1, rooma2, rooma3, rooma4, rooma5, rooma6, rooma7].map(

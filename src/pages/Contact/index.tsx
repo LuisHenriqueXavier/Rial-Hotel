@@ -1,22 +1,60 @@
 import { ContactContainer, FormContainer, MapContainer } from "./styles";
+import { WhatsappLogo, FacebookLogo, InstagramLogo } from "phosphor-react"; // Importando os ícones
 
 export function Contact() {
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    alert("Mensagem enviada! Entraremos em contato em breve.");
-  };
-
   return (
     <ContactContainer>
-
       <FormContainer>
-        <h1>Contato</h1>
-        <form onSubmit={handleSubmit}>
+        {/* Redes sociais */}
+        <div className="social-media">
+          <h2>Redes sociais</h2>
+          <div className="icons">
+            <a
+              href="https://wa.me/5513981347787"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <WhatsappLogo size={32} color="#25D366" weight="bold" />
+            </a>
+            <a
+              href="https://www.facebook.com/rialhotel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FacebookLogo size={32} color="#1877F2" weight="bold" />
+            </a>
+            <a
+              href="https://www.instagram.com/rialhotel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <InstagramLogo size={32} color="#E4405F" weight="bold" />
+            </a>
+          </div>
+        </div>
+        
+        <form
+          action="mailto:reservas@rialhotel.com.br"
+          method="POST"
+          encType="text/plain"
+        >
           <label htmlFor="name">Nome:</label>
-          <input type="text" id="name" name="name" placeholder="Seu nome" required />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Seu nome"
+            required
+          />
 
           <label htmlFor="email">E-mail:</label>
-          <input type="email" id="email" name="email" placeholder="Seu e-mail" required />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu e-mail"
+            required
+          />
 
           <label htmlFor="message">Mensagem:</label>
           <textarea

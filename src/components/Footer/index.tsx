@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { FooterContainer, FooterContent } from "./styles";
 import { House, Bed, Coins, Phone, Buildings } from "phosphor-react";
+import { WhatsappLogo, FacebookLogo, InstagramLogo } from "phosphor-react"; // Importando os ícones de redes sociais
 
 export function Footer() {
   return (
     <FooterContainer>
       <FooterContent>
-        <p>© 2025 Rial Hotel. Todos os direitos reservados.</p>
         <p>
           Rua João Mariano Ferreira, 164 - Centro Itanhaém - SP <br />
           CEP 11740-000 <br />
@@ -30,6 +30,36 @@ export function Footer() {
             <Phone size={20} weight="bold" alt="Contato" /> Contato
           </NavLink>
         </nav>
+
+        {/* Redes sociais */}
+        <div className="social-media">
+          <div className="icons">
+            <a
+              href="https://wa.me/5513981347787"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
+              <WhatsappLogo size={32} color="#25D366" weight="bold" alt="WhatsApp" />
+            </a>
+            <a
+              href="https://www.facebook.com/rialhotel"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <FacebookLogo size={32} color="#1877F2" weight="bold" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/rialhotel"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <InstagramLogo size={32} color="#E4405F" weight="bold" alt="Instagram" />
+            </a>
+          </div>
+        </div>
       </FooterContent>
     </FooterContainer>
   );
