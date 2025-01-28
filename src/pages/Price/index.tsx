@@ -5,7 +5,6 @@ import RoomB from '../../assets/RoomB.jpg'
 export function Price() {
     return (
         <PriceContainer>
-            <h1>Preços</h1>
 
             <h2>Tabela de Alta Temporada</h2>
             <h2>

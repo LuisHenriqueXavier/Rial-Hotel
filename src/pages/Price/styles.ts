@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const PriceContainer = styled.main`
+  padding-top: 120px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
