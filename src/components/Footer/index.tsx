@@ -7,12 +7,12 @@ export function Footer() {
   return (
     <FooterContainer>
       <FooterContent>
-        <p>
+        <small>
           Rua João Mariano Ferreira, 164 - Centro Itanhaém - SP <br />
           CEP 11740-000 <br />
           reservas@rialhotel.com.br <br />
           Tel: 13 3422-2411 / 98134-7787
-        </p>
+        </small>
         <nav>
           <NavLink to="/" aria-label="Início">
             <House size={20} weight="bold" alt="Início" /> 
