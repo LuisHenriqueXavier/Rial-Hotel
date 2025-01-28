@@ -63,7 +63,7 @@ export const Sidebar = styled.aside`
     width: 300px; /* Largura fixa do iframe */
     height: 410px; /* Altura do iframe */
     border: none; /* Remove a borda do iframe */
-    border-radius: 9999px; /* Bordas arredondadas */
+    border-radius: 10px; /* Bordas arredondadas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras sutis para o iframe */
   }
 
@@ -87,7 +87,7 @@ export const ButtonLink = styled.a`
   display: inline-block; /* Exibe o link como bloco inline */
   text-decoration: none; /* Remove o sublinhado */
   transition: background-color 0.3s ease-in-out; /* Transição suave de cor ao passar o mouse */
-  margin-top: 10px; /* Distância de 10px entre o iframe e o botão */
+  margin-top: 30px; /* Distância de 10px entre o iframe e o botão */
   margin-bottom: 10px; /* Pequeno ajuste para manter o botão mais perto da parte inferior */
 
   &:hover {
