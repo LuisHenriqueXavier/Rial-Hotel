@@ -25,6 +25,7 @@ export const PriceContainer = styled.main`
 
   @media (max-width: 768px) {
     padding: 1rem;
+    margin-top: 3rem;
 
     h1 {
       font-size: 1.5rem;
