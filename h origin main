@@ -1,0 +1,46 @@
+[33m7502459[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m merge
+[33mbcb3e63[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m Feat: diminui o border radius dos iframe
+[33m929412d[m Feat: finalizada pagina home
+[33m00dc470[m Feat: removido texto de navegação do footer, ficando apenas com os svg
+[33m39e3fa5[m Feat: criada a pagina home
+[33m06ce94b[m Feat: Finalizada pagina preços
+[33m8f04cbc[m feat: adicionado svg no menu
+[33mf105b4f[m Feat: finalizado o footer
+[33mff0473d[m Feat: adicionada pagina de contato
+[33mcd81cbb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Feat: criada pagina Facilities
+[33m304ab97[m Salvando progresso antes de mudar para main
+[33m548c57f[m Atualiza o build
+[33mcc18e6b[m Remove gh-pages cache from Git index
+[33m7fbd736[m corrigido h1 da pagina facilities
+[33m09fc931[m Feat: finalizada pagina facilities
+[33md864917[m Feat: pagina rooms concluída
+[33m547a19a[m Feat: Adicionado layout para mobile da pagina rooms
+[33m853b454[m Adiciona transições suaves no layout
+[33m5a666fd[m configurando GitHub Pages
+[33m3515c01[m Feat: configurando GitHub Pages
+[33ma7c70c7[m Feat: linha lateral entre a foto e o texto na pagina Price
+[33mc96d6f6[m Feat: auteração das cores do menu
+[33md761d76[m corrigindo importação da main no index
+[33mad9127b[m correção de pastas
+[33mf7222ce[m correção de estrutura
+[33m1f7f24f[m Delete CNAME
+[33mcebb63c[m Create CNAME
+[33mf042a06[m Delete CNAME
+[33mc01c608[m Update CNAME
+[33m2649898[m Create CNAME
+[33m7dd2e9b[m Delete CNAME
+[33me3f2931[m Create CNAME
+[33m3685b6b[m Corrigindo estrutura do projeto
+[33m2cdea00[m Feat: corrigida a formatação de texto da pagina Price
+[33md126fe4[m Delete CNAME
+[33m97b47fb[m Update CNAME
+[33mdb6cbd5[m Update CNAME
+[33m37aa75a[m Create CNAME
+[33mc1a2fc7[m Feat: Pagina Preços finalizada
+[33m4fb4c43[m Feat: inicio da criação da pagina preços
+[33m3930f91[m Feat: editado hover do menu
+[33me4ad434[m Feat: finalizado topo do site
+[33m6bf9c1d[m Feat:criada a estrutura base com as rotas
+[33m2f22e66[m Feat: Adicionado Styled components
+[33mccdb464[m initial commit
+[33m9602e10[m Initial Commit

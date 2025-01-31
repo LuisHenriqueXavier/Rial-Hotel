@@ -2,89 +2,89 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   width: 100%; /* O cabeçalho ocupa toda a largura da página */
-  display: flex; /* Define o layout flexbox */
+  display: flex; /* Usa flexbox para organização */
   align-items: top; /* Alinha os itens no topo */
-  justify-content: space-between; /* Espaço uniforme entre os elementos do cabeçalho */
-  gap: 3rem; /* Espaçamento entre os elementos dentro do cabeçalho */
+  justify-content: space-between; /* Distribui os elementos igualmente */
+  gap: 3rem; /* Espaçamento entre os elementos do cabeçalho */
   padding: 1rem; /* Espaçamento interno */
-  transition: all 0.5s ease-in-out; /* Transição suave em mudanças no layout */
+  transition: all 0.5s ease-in-out; /* Suaviza as transições de layout */
 
   img {
-    border-top: -30px; /* Definido incorretamente, não tem efeito válido */
     border-radius: 10px; /* Arredonda as bordas da imagem */
-    max-width: 100px; /* Limita o tamanho máximo da imagem em 100px para telas menores */
-    transition: max-width 0.5s ease-in-out; /* Animação suave ao redimensionar a imagem */
+    max-width: 100px; /* Define o tamanho máximo da imagem */
+    transition: max-width 0.5s ease-in-out; /* Suaviza a mudança de tamanho */
   }
 
   nav {
-    display: flex; /* Layout flexbox para os links de navegação */
-    align-items: center; /* Alinha os links verticalmente ao centro */
-    gap: 1rem; /* Espaçamento horizontal entre os links */
-    font-size: 1.25rem; /* Tamanho do texto dos links */
-    transition: all 0.5s ease-in-out; /* Animação suave no layout do nav */
+    display: flex; /* Usa flexbox para organizar os links */
+    align-items: center; /* Alinha os links verticalmente */
+    gap: 1rem; /* Espaçamento entre os itens do menu */
+    font-size: 1.25rem; /* Define o tamanho do texto */
+    transition: all 0.5s ease-in-out; /* Suaviza mudanças no layout */
 
     a {
-      height: auto; /* Altura do link ajustada automaticamente */
-      text-decoration: none; /* Remove o sublinhado padrão dos links */
+      display: flex; /* Define um layout flexbox */
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center; /* Centraliza verticalmente */
+      text-decoration: none; /* Remove sublinhado dos links */
       color: ${(props) => props.theme.white}; /* Define a cor do texto */
-      display: flex; /* Define layout flexbox para os links */
-      justify-content: center; /* Centraliza o texto horizontalmente */
-      align-items: center; /* Centraliza o texto verticalmente */
-      border-bottom: 3px solid transparent; /* Borda inferior inicial transparente */
-      padding: 1rem; /* Espaçamento interno dos links */
-      border-radius: 10px; /* Arredonda os cantos dos links */
-      gap: 0.5rem; /* Espaçamento entre ícones e texto nos links */
-      transition: border-bottom 0.3s ease-in-out, padding 0.3s ease-in-out; /* Animação suave para borda e espaçamento */
+      border-bottom: 3px solid transparent; /* Borda inferior invisível por padrão */
+      padding: 1rem; /* Espaçamento interno */
+      border-radius: 10px; /* Arredonda as bordas */
+      gap: 0.5rem; /* Espaço entre ícone e texto */
+      transition: border-bottom 0.3s ease-in-out, padding 0.3s ease-in-out;
     }
 
     a:hover {
-      border-bottom: 3px solid ${(props) => props.theme["red-700"]}; /* Cor da borda ao passar o mouse */
+      border-bottom: 3px solid ${(props) => props.theme["red-700"]}; /* Destaque ao passar o mouse */
     }
 
     a.active {
-      color: ${(props) => props.theme["red-700"]}; /* Cor do texto para o link ativo */
-      border-bottom: 3px solid ${(props) => props.theme["red-500"]}; /* Cor da borda para o link ativo */
+      color: ${(props) => props.theme["red-700"]}; /* Cor para link ativo */
+      border-bottom: 3px solid ${(props) => props.theme["red-500"]}; /* Destaque para link ativo */
     }
   }
 
-  /* Estilos para telas menores (até 768px) */
+  /* Estilos para telas menores (até 968px) */
   @media (max-width: 968px) {
-    flex-direction: column; /* Alinha os elementos em coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Muda o layout para coluna */
+    align-items: center; /* Centraliza os itens */
 
     img {
-      margin-top: -40px; /* Move a imagem para cima */
-      max-width: 80px; /* Reduz o tamanho máximo da imagem para telas menores */
+      margin-top: -40px; /* Ajuste para a logo */
+      max-width: 80px; /* Reduz o tamanho da imagem */
     }
 
     nav {
-      position: fixed; /* Fixa a barra de navegação na parte inferior da tela */
-      bottom: 0; /* Define a posição inferior como 0 */
-      left: 0; /* Define a posição à esquerda como 0 */
-      width: 100%; /* Barra de navegação ocupa toda a largura */
-      background-color: ${(props) => props.theme["gray-500"]}; /* Cor de fundo do menu */
-      z-index: 10; /* Eleva a barra de navegação acima de outros elementos */
-      padding: 0.5rem 1rem; /* Espaçamento interno */
-      display: flex; /* Layout flexbox */
-      justify-content: space-around; /* Distribui os links uniformemente */
-      gap: 0; /* Remove o espaçamento entre os links */
-      transition: all 0.5s ease-in-out; /* Animação suave para o nav na versão mobile */
+      position: fixed; /* Fixa o menu na parte inferior da tela */
+      bottom: 0; /* Cola o menu no rodapé */
+      left: 0;
+      width: 100%; /* Ocupa toda a largura */
+      background-color: ${(props) => props.theme["gray-500"]}; /* Cor de fundo */
+      z-index: 10; /* Garante que fique sobre outros elementos */
+      padding: 0.5rem 1rem; /* Ajusta o espaçamento interno */
+      display: flex; /* Usa flexbox */
+      justify-content: space-around; /* Espaço igual entre os itens */
+      transition: all 0.5s ease-in-out; /* Suaviza as mudanças */
 
       a {
-        font-size: 12px; /* Reduz o tamanho do texto dos links */
-        padding: 0.5rem; /* Reduz o espaçamento interno */
-        flex: 1; /* Cada link ocupa espaço igual */
-        text-align: center; /* Centraliza os textos */
+        flex-direction: column; /* Ícone acima do texto */
+        text-align: center; /* Centraliza os itens */
+        font-size: 12px; /* Define tamanho do texto */
+        gap: 0.25rem; /* Espaçamento entre ícone e texto */
+        padding: 0.5rem; /* Ajuste no espaçamento interno */
+      }
+
+      a svg {
+        font-size: 24px; /* Define o tamanho do ícone */
       }
     }
   }
 
   /* Estilos para telas muito pequenas (até 480px) */
   @media (max-width: 480px) {
-    nav {
-      a {
-        padding: 0.25rem; /* Reduz o espaçamento interno dos links */
-      }
+    nav a {
+      padding: 0.25rem; /* Ajuste de espaçamento para telas menores */
     }
   }
 `;
