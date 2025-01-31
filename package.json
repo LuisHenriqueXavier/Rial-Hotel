@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d build"
   },
   "dependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
@@ -34,5 +34,5 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.7"
   },
-  "homepage": "https://luishenriquexavier.github.io/Rial-Hotel/"
+  "homepage": "https://luishenriquexavier.github.io/RialHotel/"
 }
