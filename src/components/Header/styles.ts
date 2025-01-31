@@ -71,7 +71,7 @@ export const HeaderContainer = styled.header`
         flex-direction: column; /* Ícone acima do texto */
         text-align: center; /* Centraliza os itens */
         font-size: 12px; /* Define tamanho do texto */
-        gap: 0.25rem; /* Espaçamento entre ícone e texto */
+        gap: 0.2rem; /* Espaçamento entre ícone e texto */
         padding: 0.5rem; /* Ajuste no espaçamento interno */
       }
 
