@@ -14,6 +14,11 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   z-index: 1;
+
+  @media (max-width: 968px) {
+  display: none;
+  
+}
 `;
 
 // Conteúdo do Footer
